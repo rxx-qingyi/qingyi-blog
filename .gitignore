@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.scannerwork/
+# dependencies
+/node_modules
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+# production
+/dist
+/build
+/dist-dev
+dist.zip
+/.vscode
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea
+*bak
+
+# visual studio code
+.history
+
+# mock socket
+/mockSocket
+
+# TODO
+TODO
+/junit.xml
+/testDATA
+
+src/config.json
+
+*.pem

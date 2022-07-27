@@ -24,7 +24,7 @@ const BackGroundContent = () => {
     <>
       <div className='back-content-container'>
         <div className='content-container'>
-          <h2>E1e's Home;</h2>
+          <h2>QingYi's Home;</h2>
           <div id='sentence'></div>
         </div>
       </div>

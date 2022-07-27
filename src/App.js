@@ -5,21 +5,16 @@ import { useLocation } from 'react-router';
 import Home from './pages/Home';
 import Article from './pages/Article';
 import AboutMe from './pages/AboutMe';
-import Examples from './pages/Examples';
 import Header from './components/Header/Header';
 
 const App = () => {
   const location = useLocation();
   const { pathname } = location;
-  const header = pathname.includes('/examples') ? '' : <Header></Header>;
 
   return (
     <div className='app'>
-      {header}
+      <Header></Header>
       <Switch>
-        <Route path='/examples'>
-          <Examples></Examples>
-        </Route>
         <Route exact path='/home'>
           <Home></Home>
         </Route>
