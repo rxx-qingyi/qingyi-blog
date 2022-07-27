@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <div className='header-container'>
-        <h2 className='name'>E1e</h2>
+        <h2 className='name'>QY</h2>
         <MenuComponent></MenuComponent>
       </div>
     </>

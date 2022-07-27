@@ -25,39 +25,17 @@ const HomeContentItem = ({ dispatch, ownProps }) => {
   };
 
   return (
-    // info {id:id,title:标题,desc:描述,category:标签,createTime:创建时间}
-    <div>
-  {/* <div
-    // className='home-content-item-container'
-    onClick={() => goArticleDetail(info.id)}
-  > */}
+  <div 
+  className='home-content-item-container'
+  >
     <Card
     hoverable
-    style={{ width: 240 }}
     onClick={() => goArticleDetail(info.id)}
-    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+    cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />}
     >
       <Meta title={info.title} description={info.desc} />
     </Card>
-  {/* </div> */}
-
-
-
-
-    {/* <div
-      className='home-content-item-container'
-      onClick={() => goArticleDetail(info.id)}
-    >
-      <h2 className='title'>{info.title}</h2>
-      <div className='desc'>{info.desc}</div>
-      <div className='category-container'>
-        <Tag color={getTagColor()}>{info.category}</Tag>
-        <span className='create-time'>{info.createTime}</span>
-      </div>
-    </div> */}
-
-    </div>
-
+  </div>
   );
 };
 

@@ -40,16 +40,16 @@ const MenuComponent = ({ state, dispatch }) => {
         mode='horizontal'
       >
         <Menu.Item key='home' icon={<HomeOutlined />}>
-          Home
+          主页
         </Menu.Item>
         <Menu.Item key='article' icon={<ReadOutlined />}>
-          Article
+          文章列表
         </Menu.Item>
         <Menu.Item key='aboutMe' icon={<UserOutlined />}>
-          AboutMe
+          站主
         </Menu.Item>
         <Menu.Item
-          onClick={() => goOutWebsite('https://github.com/wyelemnet')}
+          onClick={() => goOutWebsite('https://github.com/')}
           key='github'
           icon={<GithubOutlined />}
         >

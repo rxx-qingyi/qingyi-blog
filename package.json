@@ -2,7 +2,6 @@
   "name": "qingyi-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wyelemnet.github.io/",
   "dependencies": {
     "@craco/craco": "^5.8.0",
     "@testing-library/jest-dom": "^5.11.4",

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './index.less';
 
-const WaveBar = () => {
+const WaveSvg = () => {
   return (
     <div className='wave-bar-container'>
       <div className='wave-bar wave-bar1'></div>
@@ -11,4 +11,4 @@ const WaveBar = () => {
   );
 };
 
-export default WaveBar;
+export default WaveSvg;

@@ -2,12 +2,12 @@ import React from 'react';
 
 import BackGroundContent from '../components/BackGroundContent/BackGroundContent'
 import HomeContent from '../components/HomeContent/HomeContent'
-import WaveBar from '../components/WaveBar'
+import WaveSvg from '../components/WaveSvg'
 
 const Home = () =>(
   <>
     <BackGroundContent></BackGroundContent>
-    <WaveBar></WaveBar>
+    <WaveSvg></WaveSvg>
     <HomeContent></HomeContent>
   </>
 );

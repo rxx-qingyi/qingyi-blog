@@ -9,7 +9,7 @@ import { ARTICLES_INFO } from '../../utils/constants';
 const HomeContent = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [articles, setArticles] = useState([]);
-  const pageSize = 8;
+  const pageSize = 9;
 
   useEffect(() => {
     setArticles(
@@ -29,7 +29,7 @@ const HomeContent = () => {
     <>
       <div className='home-content-container'>
         <div className='items-container'>{items}</div>
-        <LearningWebsite></LearningWebsite>
+        {/* <LearningWebsite></LearningWebsite> */}
       </div>
       <Pagination
         className='pagination-container'
