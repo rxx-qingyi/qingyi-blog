@@ -3,13 +3,13 @@ import { Pagination } from 'antd';
 
 import './HomeContent.less';
 import HomeContentItem from '../HomeContentItem/HomeContentItem';
-import LearningWebsite from '../LearningWebsite/LearningWebsite';
+// import LearningWebsite from '../LearningWebsite/LearningWebsite';
 import { ARTICLES_INFO } from '../../utils/constants';
 
 const HomeContent = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [articles, setArticles] = useState([]);
-  const pageSize = 9;
+  const pageSize = 12;
 
   useEffect(() => {
     setArticles(

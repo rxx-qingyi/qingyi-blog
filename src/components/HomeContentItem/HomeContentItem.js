@@ -12,7 +12,6 @@ const HomeContentItem = ({ dispatch, ownProps }) => {
   const { Meta } = Card;
   const history = useHistory();
   const info = ownProps.info;
-  console.log(info);
   const getTagColor = () => {
     const categoryColor = CATEGORY_COLORS.find(
       (item) => item.category === info.category,
@@ -31,6 +30,8 @@ const HomeContentItem = ({ dispatch, ownProps }) => {
     <Card
     hoverable
     onClick={() => goArticleDetail(info.id)}
+    // type='inner'
+  bodyStyle={{height:'150px'}}
     cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png" />}
     >
       <Meta title={info.title} description={info.desc} />
