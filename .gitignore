@@ -36,3 +36,4 @@ TODO
 src/config.json
 
 *.pem
+.vercel

@@ -1,26 +1,13 @@
 ## About ME
 
-hello，this is E1e, i'll introduce myself next by my poor English，and why English? because poor English.
++ 你好,这里是QingYi。一个新入互联网的板砖人。目前暂时还是一名前端工程师。
 
-### real name: 王垚
+- 目前掌握的技术： HTML， CSS，JavaScript，TypeScript，Vue，React，Git------小声bb：不能算熟悉，只能算会用。
 
++ 近期目标：当前工作转正，并且学到更多技术。
 
-### nickname: E1e
+- 近期梦想：自行车出游。为什么是自行车，因为够慢，才能仔细欣赏风景。
 
-### name origin: just an element now, be a node in the future.
+## 最后
 
-### profession: front-end developer and web-gis developer.
-
-### skills: JavaScript，TypeScript, CSS，HTML，Vue，React，Webpack，Git, little WebGL，Openlayers.js，Cesium.js...
-
-### plans: be great in front-end and web-gis(web visualization).
-
-### hobby:
-
-- game: LOL PUBG CSGo OW... but just a rookie.
-- keyboard novice，DIY computer novice，cook novice... but just a novice.
-- learn skills of my profession and what i'm interested in.
-
-### in the end
-
-welcome to make friends with me, you can email me(761358903@qq.com) or scan my weChat QR code.
++ 欢迎各位一起交流学习。QQ：2761459530。
