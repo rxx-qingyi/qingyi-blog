@@ -9,7 +9,7 @@ export const typingAnimation = (container, text, index = 0) => {
       container.innerHTML = '';
       index = 0;
       typingAnimation(container, text, index);
-    }, 500);
+    }, 3000);
   }
 };
 

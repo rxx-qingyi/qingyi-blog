@@ -14,7 +14,7 @@ import { goOutWebsite } from '../../utils/index';
 import { UPDATE_MENU_KEY } from '../../store/types';
 
 const MenuComponent = ({ state, dispatch }) => {
-  console.log(state);
+  console.log(dispatch);
   const { menuKey } = state;
   const history = useHistory();
   const pathname = history.location.pathname;
