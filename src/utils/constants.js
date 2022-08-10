@@ -66,6 +66,13 @@ export const ARTICLES_INFO = [
     category: 'algorithm',
     createTime: '2022-08-09',
   },
+  {
+    id: 6,
+    title: '算法练习4',
+    desc: 'H指数',
+    category: 'algorithm',
+    createTime: '2022-08-10',
+  },
 ];
 
 
