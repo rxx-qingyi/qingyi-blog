@@ -73,6 +73,13 @@ export const ARTICLES_INFO = [
     category: 'algorithm',
     createTime: '2022-08-10',
   },
+  {
+    id: 7,
+    title: '算法练习5',
+    desc: '最小操作次数使数组元素相等',
+    category: 'algorithm',
+    createTime: '2022-08-30',
+  },
 ];
 
 
